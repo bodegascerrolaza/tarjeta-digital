@@ -109,7 +109,7 @@ main {
     gap: 2rem;
 }
 
-/* Sección "Sobre Nosotros" */
+/* SecciÃ³n "Sobre Nosotros" */
 .about-us {
     text-align: center;
 }
@@ -143,7 +143,7 @@ main {
     box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
 
-/* Íconos sociales animados */
+/* Ãconos sociales animados */
 .social {
     text-align: center;
 }
@@ -166,7 +166,7 @@ main {
     color: var(--accent-color);
 }
 
-/* Sección CTA con efecto Glassmorphism y 3D */
+/* SecciÃ³n CTA con efecto Glassmorphism y 3D */
 .cta {
     text-align: center;
     background: var(--glass-bg);
@@ -187,7 +187,7 @@ main {
     background: var(--primary-color);
 }
 
-/* Sección de WhatsApp */
+/* SecciÃ³n de WhatsApp */
 .whatsapp {
     text-align: center;
     margin-top: 2rem;
@@ -244,7 +244,7 @@ main {
     cursor: pointer;
 }
 
-/* Pie de página */
+/* Pie de pÃ¡gina */
 footer {
     text-align: center;
     padding: 1rem;
