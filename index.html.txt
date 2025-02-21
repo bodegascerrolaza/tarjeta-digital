@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Digital - Tu Empresa</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para íconos sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Archivo de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Archivo JavaScript -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Preloader: Pantalla de carga con el logo de la bodega -->
+    <div id="preloader">
+        <img src="logo.png" alt="Logo de la Bodega">
+    </div>
+
+    <!-- Cabecera con video de fondo -->
+    <header class="header">
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                  <source src="video.mp4" type="video/mp4">
+                  Tu navegador no soporta el video.
+            </video>
+            <div class="overlay">
+                  <div class="corporate-logo">
+                        <img src="logo.png" alt="Logo de la Empresa">
+                  </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección "Sobre Nosotros" con frases dinámicas -->
+        <section class="about-us">
+            <h2>Sobre Nosotros</h2>
+            <p id="dynamic-text">Innovación y calidad en cada detalle.</p>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contact">
+            <h2>Contacto</h2>
+            <div class="button-group">
+                  <a href="tel:+34XXXXXXXXX" class="btn contact-btn">
+                          ? Llamar
+                  </a>
+                  <a href="mailto:miemail@empresa.com" class="btn contact-btn">
+                          ? Email
+                  </a>
+                  <a href="vcard.vcf" class="btn contact-btn" download>
+                          ? Descargar vCard
+                  </a>
+                  <button class="btn contact-btn" id="tryButton">
+                          ? Pruébalo
+                  </button>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section class="social">
+            <h2>Síguenos</h2>
+            <div class="social-icons">
+                  <a href="https://facebook.com" class="social-link" target="_blank">
+                          <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://twitter.com" class="social-link" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://instagram.com" class="social-link" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://linkedin.com" class="social-link" target="_blank">
+                          <i class="fab fa-linkedin-in"></i>
+                  </a>
+            </div>
+        </section>
+
+        <!-- Sección CTA (Llamado a la Acción) -->
+        <section class="cta">
+            <h2>Acción Inmediata</h2>
+            <div class="cta-buttons">
+                  <button class="btn cta-btn">Reserva una cata virtual</button>
+                  <button class="btn cta-btn">Solicita una muestra gratuita</button>
+                  <button class="btn cta-btn">Conoce nuestro vino estrella</button>
+            </div>
+        </section>
+
+        <!-- Sección de WhatsApp con mensaje predefinido -->
+        <section class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=+34XXXXXXXXX&text=¡Hola!%20Estoy%20interesado%20en%20sus%20servicios." target="_blank" class="whatsapp-link">
+                  <img src="whatsapp-icon.png" alt="WhatsApp">
+                  Chatea con nosotros
+            </a>
+        </section>
+    </main>
+
+    <!-- Modal oculto para mostrar el QR secreto -->
+    <div class="qr-modal" id="qrModal">
+        <div class="qr-content">
+              <span class="close" id="qrClose">&times;</span>
+              <img src="qr-code.png" alt="QR Code">
+              <p>¡Descuentos exclusivos te esperan!</p>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
