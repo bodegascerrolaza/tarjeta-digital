@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Frases dinámicas para "Sobre Nosotros"
+    // Frases dinÃ¡micas para "Sobre Nosotros"
     const phrases = [
-        "Innovación y calidad en cada detalle.",
+        "InnovaciÃ³n y calidad en cada detalle.",
         "Transformando ideas en realidad.",
-        "Pasión por la excelencia.",
-        "Creatividad sin límites."
+        "PasiÃ³n por la excelencia.",
+        "Creatividad sin lÃ­mites."
     ];
     
     let phraseIndex = 0;
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dynamicText.textContent = phrases[phraseIndex];
     }, 3000); // Cambio cada 3 segundos
     
-    // Funcionalidad para mostrar el QR secreto al pulsar "Pruébalo"
+    // Funcionalidad para mostrar el QR secreto al pulsar "PruÃ©balo"
     const tryButton = document.getElementById('tryButton');
     const qrModal = document.getElementById('qrModal');
     const qrClose = document.getElementById('qrClose');
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Preloader: Oculta la pantalla de carga una vez que la página se haya cargado completamente
+// Preloader: Oculta la pantalla de carga una vez que la pÃ¡gina se haya cargado completamente
 window.addEventListener('load', () => {
     const preloader = document.getElementById('preloader');
     preloader.style.opacity = '0';
